@@ -1,7 +1,9 @@
 # ITIS 3135 | Front-End Web Application Development
 
 <u>Instructor</u>
+
 Name: Dr. Yaorong Ge
+
 Email: yge@charlotte.edu
 
 
