@@ -2,9 +2,11 @@
 
 <h2>Instructor</h2>
 
-Name: Dr. Yaorong Ge
+> Name: <u>Dr. Yaorong Ge</u>
 
-Email: <u><yge@charlotte.edu></u>
+> Email: <u><yge@charlotte.edu></u>
+
+
 
 <h2>Course Description</h2>
 
