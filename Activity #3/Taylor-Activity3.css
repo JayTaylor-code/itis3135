@@ -1,0 +1,66 @@
+/*ITIS 3135 Activity 3 css file*/
+
+/*styling for the table goes here*/
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 75vh;
+	width: 750px;
+	margin: 0 auto;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 12pt;
+}
+
+.page
+{
+	border: 1pt solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+table 
+{
+	border-collapse: collapse;
+	border: 1pt solid black;
+	margin: 20px auto;
+	width: auto;
+}
+
+thead 
+{
+	background-color: lightgreen;
+}
+
+th, td 
+{
+	border: 1pt solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right 
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td:not(.exempt)
+{
+	background-color: yellow;
+}
+
+.exempt
+{
+	vertical-align: top;
+}
+
+.green
+{
+	background-color: lightgreen;
+}
