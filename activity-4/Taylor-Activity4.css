@@ -1,7 +1,3 @@
-.page {
-    min-height: 100svh;
-    width: 100vw;
-}
 .container {
     margin: 0 auto;
     width: 95%;
@@ -14,11 +10,12 @@ img {
     height: auto;
 }
 body {
+    min-height: 100svh;
+    width: 100vw;
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     background-color: hotpink;
     padding: 30px;
-
 }
 .content-wrapper {
     padding: 15px;
