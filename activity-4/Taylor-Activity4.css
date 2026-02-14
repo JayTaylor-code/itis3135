@@ -1,0 +1,93 @@
+.container {
+    margin: 0 auto;
+    width: 95%;
+    padding: 20px;
+    background-color: #f2c9d1;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    background-color: hotpink;
+    padding: 30px;
+
+}
+.content-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2c9d1;
+}
+.top-block {
+    display: flex;
+    justify-content: space-between;
+}
+.site-header {
+    display: block;
+    border: 4px solid deeppink;
+    border-right: none;
+    border-bottom: none;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.main-content {
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px solid deeppink;
+    border-bottom: none;
+}
+.bottom-block {
+    display: flex;
+    justify-content: space-evenly;
+    border: 4px solid deeppink;
+    line-height: .75;
+}
+h1 {
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+h2 {
+    line-height: 1.2;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.list-header {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+h3 {
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+.after-header {
+    margin-top: 15px;
+}
+ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.pink {
+    background-color: lightpink;
+}
+footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+address {
+    background-color: #f2c9f9;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+

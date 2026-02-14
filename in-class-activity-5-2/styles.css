@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.container {
+    text-align: left;
+}
+h1 {
+    color: green;
+    background-color: lightgray;
+}
+p {
+    font-family: arial;
+    margin-top: 0;
+    margin-left: 10px;
+}
+strong {
+    background-color: lightgreen;
+    padding: 5px;
+}
+.year {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+#year {
+    position: absolute;
+    top: 26.4%;
+    left: 30%;
+    animation: moveYear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes moveYear {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(360px, 0px);
+    }
+    100% {
+        transform: translate(360px, 70px);
+    }
+}
+
