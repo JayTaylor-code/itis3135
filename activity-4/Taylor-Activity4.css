@@ -2,7 +2,10 @@
     margin: 0 auto;
     width: 95vw;
     height: auto;
-    padding: 20px;
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottmo: 20vh;
     background-color: #f2c9d1;
 }
 img {
