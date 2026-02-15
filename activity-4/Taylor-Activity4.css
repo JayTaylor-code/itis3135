@@ -8,6 +8,7 @@
 img {
     max-width: 100%;
     height: auto;
+    margin-top: 10px;
 }
 body {
     min-height: 100svh;
