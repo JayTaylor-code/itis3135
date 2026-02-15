@@ -8,7 +8,7 @@
 img {
     max-width: 100%;
     height: auto;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 body {
     min-height: 100svh;
