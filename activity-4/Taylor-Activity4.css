@@ -1,4 +1,8 @@
 .container {
+    width: 95%;
+    height: 95%;
+    max-width: 3840px;
+    max-height: 2160px;
     margin: 0 auto;
     position: static;
     transform: none;
@@ -11,7 +15,10 @@ img {
     padding-bottom: 20px;
 }
 body {
-    max-height: 91svh;
+    width: 100%;
+    height: 100%;
+    max-width: 3840px;
+    max-height: 2160px;
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
     background-color: hotpink;
@@ -37,8 +44,10 @@ body {
     padding-right: 20px;
 }
 .main-content {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     max-width: 3840px;
+    max-height: 2160px;
     padding-left: 20px;
     padding-right: 20px;
     border: 4px solid deeppink;
