@@ -102,14 +102,12 @@ nav li a:hover {
 
 @keyframes lowerAd {
     from {
-        top: 5%;
-        right: 5%;
+        transform: translate(200%, -200%);
         opacity: 0;
     }
 
     to {
-        top: 45%;
-        right: 50%;
+        transform: translate(-50%, -50%);
         opacity: 1;
     }
 }
@@ -121,8 +119,9 @@ nav li a:hover {
     animation-delay: 2s;
     animation-fill-mode: forwards;
     position: absolute;
-    top: 45%;
-    right: 50%;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
     width: 100px;
     background: linear-gradient(lightgreen, white);
     box-shadow: 5px 5px;
@@ -132,7 +131,9 @@ nav li a:hover {
 }
 
 #advertisement:hover {
-    transform: translate(48%, 53%) scale(1.2, 1.2);
+    top: 54%;
+    left: 50%;
+    scale: 1.2;
 }
 
 .restaurant-photo {
