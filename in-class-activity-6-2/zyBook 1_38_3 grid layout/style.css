@@ -1,0 +1,21 @@
+#grid-container { 
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+figure img {   
+    /*
+    display: flex;
+    flex-direction: column;
+    */
+    width: 100%;
+    height: auto;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 10px;
+}
+
+figcaption {
+    min-height: 40px;
+}
+
