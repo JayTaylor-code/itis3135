@@ -46,6 +46,8 @@
 
     >The text content of the first \<p> element is <code>**year: 2012**</code>.
 
+<div style="page-break-after: always"></div>
+
 6. Which nodes are the children of the first "p" element?
 
     >The text node is "**year:** ", and the element node is \<strong>, and the text node inside \<strong> is "**2012**".
