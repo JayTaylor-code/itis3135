@@ -16,11 +16,11 @@
 
 <img src="DOM.png" alt="DOM Photo" width= 461px height=321px>
 
-<a href="DOM.html">Open DOM.html here</a>
+[Open DOM.html here](https://jaytaylor-code.github.io/itis3135/in-class-activity-7-2/DOM.html)
 
-<a href="DOM.drawio">Open DOM.drawio here</a>
+[Download DOM.drawio here](https://jaytaylor-code.github.io/itis3135/in-class-activity-7-2/DOM.drawio)
 
-<a href="DOM.svg">Open DOM.svg here</a>
+[Open DOM.svg here](https://jaytaylor-code.github.io/itis3135/in-class-activity-7-2/DOM.svg)
 
 <div style="page-break-after: always"></div>
 
