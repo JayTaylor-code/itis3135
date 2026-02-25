@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>An example</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+
+    <h1>An example of for-of loop</h1>
+
+    <p>The following for-of statement loops through the values of a string.</p>
+
+    <p id="demo"></p>
+
+    <style>
+        #demo {
+            margin-left: 20px;
+        }
+    </style>
+
+    <script>
+        "use strict";
+        let language_name = "JavaScript";
+
+        let display_text = "";
+        for (let x of language_name) {
+            display_text += x + "<br>";
+        }
+
+        document.getElementById("demo").innerHTML = display_text;
+    </script>
+
+</body>
+</html>
