@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>An example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+</head>
+
+<body>
+
+    <h1>An example of for-of loop</h1>
+
+    <p>The following for-of statement loops through the values of a string.</p>
+
+    <p id="demo"></p>
+
+    <style>
+        #demo {
+            margin-left: 20px;
+        }
+
+        .cap {
+            font-size: 3rem;
+            color: red;
+            margin-left: 20px;
+            margin-right: 10px;
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+        "use strict";
+        let language_name = "Python";
+
+        function upperCase(char) {
+            if (char === char.toUpperCase()) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        let display_text = "";
+        let upperCount = 0;
+        let lowerCount = 0;
+        for (let x of language_name) {
+            if (upperCase(x)) {
+                display_text += `<span class="cap">${x}</span><br>`;
+                upperCount++;
+            }
+            else {
+                display_text += x + "<br>";
+                lowerCount++;
+            }
+        }
+
+        display_text += `<br>There are ${upperCount} upper case letters and ${lowerCount} lower case letters.`;
+
+        document.getElementById("demo").innerHTML = display_text;
+    </script>
+
+</body>
+
+</html>
