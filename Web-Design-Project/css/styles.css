@@ -1,0 +1,369 @@
+/* General page styling */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+/* Header layout and styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation menu styling */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main section styling */
+main {
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+}
+
+/* Hero section with background image */
+.hero {
+    display: flex;
+    width: 100%;
+    min-height: 81.5vh;
+    background-image: url("../images/pest-control.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Text inside the hero section */
+.hero-text {
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 40px;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+/* Is the class that makes the simple line seperators all red */
+.red {
+    color: red;
+}
+
+.hero-text .contact-btn {
+    background-color: transparent;
+    color: white;
+    border-radius: 2rem;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-text .contact-btn:hover {
+    cursor: pointer;
+    background-color: red;
+    text-decoration: underline;
+}
+
+.hero-text .contact-btn p {
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+}
+
+/* About page styling */
+.about {
+    background-image: url("../images/pattern-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 15vh;
+    min-width: 50%;
+    max-width: none;
+    color: white;
+    align-content: center;
+}
+
+.about p {
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.about h2 {
+    margin-left: 50px;
+    font-size: 1.8rem;
+}
+
+/* Text inside the about section */
+.about-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+}
+
+.about-text img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.about-text p strong {
+    color: red;
+}
+
+.about-text h3 {
+    font-size: 2rem;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-text h4 {
+    color: #08415C;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.about-text h5 {
+    color: #08415C;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.about-text ul {
+    list-style: none;
+    padding-left: 1.2rem;
+}
+
+.about-text ul li::before {
+    content: "\2013";
+    margin-right: 0.75rem;
+    color: red;
+}
+
+.about-text ul li strong {
+    color: black;
+}
+
+/* Services page styling */
+.services {
+    background-image: url("../images/pattern-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 15vh;
+    min-width: 50%;
+    max-width: none;
+    color: white;
+    align-content: center;
+}
+
+.services p {
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.services h2 {
+    margin-left: 50px;
+    font-size: 1.8rem;
+}
+
+/* Text inside the services section */
+.services-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+}
+
+.services-text #right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.services-text #left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.services-text h3 {
+    font-size: 2rem;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.services-text h4 {
+    color: #08415C;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.services-text h5 {
+    color: #08415C;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.services-text ul {
+    list-style: none;
+    padding-left: 1.2rem;
+}
+
+.services-text ul li::before {
+    content: "\2013";
+    margin-right: 0.75rem;
+    color: red;
+}
+
+/* Contact page styling */
+.contact {
+    background-image: url("../images/pattern-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 15vh;
+    min-width: 50%;
+    max-width: none;
+    color: white;
+    align-content: center;
+}
+
+.contact p {
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.contact h2 {
+    margin-left: 50px;
+    font-size: 1.8rem;
+}
+
+/* The text and form inside the contact section */
+.contact-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f4f4f4;
+}
+
+.contant-text p {
+    margin-bottom: 10px;
+}
+
+/* Contact form styling */
+form {
+    font-size: 1rem;
+    padding: 25px;
+    padding-right: 45px;
+    border-radius: 10px;
+    max-width: 39vw;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    height: 13vh;
+    resize: vertical;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b30000;
+}
+
+.contact-text h3 {
+    font-size: 2rem;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#phone {
+    text-decoration: underline;
+    color: blue;
+}
+
+#email {
+    text-decoration: underline;
+    color: blue;
+}

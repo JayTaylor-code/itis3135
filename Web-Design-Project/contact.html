@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header with company name and navigation menu -->
+    <header>
+        <h1>Jay Taylor Exterminating Co., Inc.</h1>
+
+        <!-- Main navigation links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Contact section banner -->
+        <section class="contact">
+
+            <!-- Simple line seperator for seperating the header bar from the contact section -->
+            <p class="red"><strong>____________</strong></p>
+
+            <h2>Contact Us</h2>
+        </section>
+
+        <!-- Part of the contact section but instead contains contact information and a quote form -->
+        <section class="contact-text">
+
+            <!-- Company contact information -->
+            <p>
+                <strong>Phone:</strong> <span id="phone">910-586-3788</span>
+            </p>
+
+            <p>
+                <strong>Email:</strong> <span id="email">j.tayloriv@yahoo.com</span>
+            </p>
+
+            <!-- Simple line seperator for seperating the company's contact information from form's section -->
+            <p class="red"><strong>_______________</strong></p>
+
+            <!-- Customer quote request form -->
+            <h3>Request a Quote</h3>
+            <form>
+
+                <!-- Name input field -->
+                <label for="name"><strong>Name:</strong> </label>
+                <input type="text" id="name" name="name" required><br>
+
+                <!-- Email input field -->
+                <label for="email"><strong>Email:</strong> </label>
+                <input type="text" id="email" name="email" required><br>
+
+                <!-- Service type dropdown -->
+                <label for="service"><strong>Service Type:</strong></label>
+                <select id="service" name="service">
+                    <option>Residential</option>
+                    <option>Commercial</option>
+                </select><br>
+
+                <!-- Message box -->
+                <label for="message"><strong>Message:</strong></label>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+<!-- The website footer -->
+<footer>
+    <p>
+        &copy; 2026 Jay Taylor Exterminating
+    </p>
+</footer>
+
+</html>
