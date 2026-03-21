@@ -1,0 +1,62 @@
+body {
+   width: 700px;
+   margin: auto;
+   font-family: 'Georgia', serif;
+   padding-top: 40px;
+   background-color: white;
+}
+
+h1 {
+   color: black;
+   background-color: transparent;
+   display: inline-block;
+   padding: 8px 15px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+
+p,
+.button-container span {
+   font-family: 'Arial', sans-serif;
+   margin-left: 10px;
+   font-size: 1.1em;
+   line-height: 1.6;
+}
+
+strong,
+#year {
+   background-color: #b2ffb2;
+   padding: 4px 8px;
+}
+
+.details-container {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.specs {
+   flex: 1;
+}
+
+.button-container {
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.button-grid {
+   display: grid;
+   grid-template-columns: 80px 80px;
+   gap: 8px;
+   margin-left: 10px;
+}
+
+button {
+   width: 80px;
+   height: 40px;
+   border: 3px solid #28549e;
+   background-color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
