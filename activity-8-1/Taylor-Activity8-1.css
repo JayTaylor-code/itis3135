@@ -1,0 +1,33 @@
+/*ITIS 3135 Activity 5 css file*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin-left: 37vw;
+    margin-top: 10vh;
+}
+
+/*Make it look more like a calculator*/
+#calc {
+    width: 20vw;
+    height: 38vh;
+    background-color: #cccccc;
+    text-align: center;
+    border: outset;
+    padding: 5px;
+}
+
+/*Change the style of the buttons*/
+input {
+    font-family: 'Consolas', 'Liberation Mono', monospace;
+    font-size: 1rem;
+    text-align: right;
+    margin: 2px;
+}
+
+/*Make the buttons that have not been implemented red*/
+input.implement {
+    background-color: red;
+}
