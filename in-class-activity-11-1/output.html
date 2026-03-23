@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>in-class-activity-11-1_questions</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: gray;
+    }
+
+    body {
+      margin: 0 auto;
+      max-width: 50em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+      background-color: white;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+
+    @media print {
+      html {
+        background-color: white;
+      }
+
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+
+      p,
+      h2,
+      h3 {
+        orphans: 3;
+        widows: 3;
+      }
+
+      h2,
+      h3,
+      h4 {
+        page-break-after: avoid;
+      }
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
+    a {
+      color: #1a1a1a;
+    }
+
+    a:visited {
+      color: #1a1a1a;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 1.4em;
+    }
+
+    h5,
+    h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+
+    h6 {
+      font-weight: normal;
+    }
+
+    ol,
+    ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+
+    li>ol,
+    li>ul {
+      margin-top: 0;
+    }
+
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid cornflowerblue;
+      color: black;
+      background-color: ghostwhite
+    }
+
+    code {
+      font-family: "Consolas", 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+
+    .sourceCode {
+      background-color: transparent;
+      overflow: visible;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+
+    table caption {
+      margin-bottom: 0.75em;
+    }
+
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+
+    #TOC li {
+      list-style: none;
+    }
+
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+
+    #TOC>ul {
+      padding-left: 0;
+    }
+
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+
+    code {
+      white-space: pre-wrap;
+    }
+
+    span.smallcaps {
+      font-variant: small-caps;
+    }
+
+    div.columns {
+      display: flex;
+      gap: min(4vw, 1.5em);
+    }
+
+    div.column {
+      flex: auto;
+      overflow-x: auto;
+    }
+
+    div.hanging-indent {
+      margin-left: 1.5em;
+      text-indent: -1.5em;
+    }
+
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class] {
+      list-style: none;
+    }
+
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+
+    .display.math {
+      display: block;
+      text-align: center;
+      margin: 0.5rem auto;
+    }
+  </style>
+</head>
+
+<body>
+  <style>
+    body {
+      font-family: "Helvetica Neue", "Times New Roman", serif;
+      font-size: 12pt;
+      line-height: 1;
+    }
+
+    blockquote {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 11pt;
+      line-height: 1.5;
+    }
+
+    ul li {
+      line-height: 1;
+    }
+
+    .code {
+      font-family: "Consolas", "Lucida Console", monospace;
+      font-size: 10pt;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding-top: 0.5px;
+      padding-bottom: 0.5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border: 0.5px solid;
+      border-radius: 8px;
+    }
+
+    img {
+      width: 400px;
+      height: 250px;
+    }
+  </style>
+  <h1 id="in-class-activity-11-1-questions">In-Class Activity 11-1
+    Questions</h1>
+  <h2 id="questions">Questions</h2>
+  <ol type="1">
+    <li>
+      <p>What does the following methods do?</p>
+      <ul>
+        <li>
+          <p>Obiect.getOwnPropertyNames</p>
+        </li>
+        <li>
+          <p>Obiect.getPrototypeOf</p>
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <blockquote>
+    <p>The <span class="code">Object.getOwnPropertyNames(obj)</span> returns
+      all the properties belonging directly to the object, including
+      non-enumerable. However, it does <strong>not</strong> include properties
+      from the prototype chain. While the <span class="code">Object.getPrototypeOf(obj)</span> returns the object’s
+      <strong>internal prototype</strong>. That is, the object it inherits
+      from.
+    </p>
+  </blockquote>
+  <ol start="2" type="1">
+    <li>
+      <p>What are the properties of the following objects? (Examine and
+        revise the script to answer the following questions)</p>
+      <ul>
+        <li>
+          <p>The “hello” function object</p>
+        </li>
+        <li>
+          <p>The prototype of the “hello” function object</p>
+        </li>
+        <li>
+          <p>The “hello.prototype” object</p>
+        </li>
+        <li>
+          <p>The prototype of the “hello.prototype” object</p>
+        </li>
+        <li>
+          <p>The x object</p>
+        </li>
+        <li>
+          <p>The prototype of x object</p>
+        </li>
+        <li>
+          <p>The prototype of the prototype of x</p>
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <blockquote>
+    <p>The hello function object has the properties <span class="code">“length”</span>, <span
+        class="code">“name”</span>, and
+      <span class="code">“prototype”</span>. The prototype of the <span class="code">hello</span> function object is
+      <span class="code">Function.prototype</span>, which contains built-in function
+      methods such as <span class="code">call</span> and <span class="code">apply</span>. The <span
+        class="code">hello.prototype</span>
+      object initially contains the <span class="code">“constructor”</span>
+      property, and after modification in the code, it also includes the <span class="code">“name2”</span> property. The
+      prototype of <span class="code">hello.prototype</span> is <span class="code">Object.prototype</span>, which
+      provides standard object
+      methods like <span class="code">toString</span>. The object <span class="code">x</span>, created using <span
+        class="code">new
+        hello()</span>, has no own properties. The prototype of <span class="code">x</span> is <span
+        class="code">hello.prototype</span>,
+      which means <span class="code">x</span> can access <span class="code">“constructor”</span> and <span
+        class="code">“name2”</span>.
+      The prototype of the prototype of <span class="code">x</span> is <span class="code">Object.prototype</span>.
+    </p>
+  </blockquote>
+  <ol start="3" type="1">
+    <li>Is “constructor” a direct (own) property of x? Where is this
+      property defined?</li>
+  </ol>
+  <blockquote>
+    <p>The <span class="code">constructor</span> property is not a direct
+      property of <span class="code">x</span>; instead, it is inherited from
+      <span class="code">hello.prototype</span>, where it is originally
+      defined.
+    </p>
+  </blockquote>
+  <ol start="4" type="1">
+    <li>Add a property “name1” to the “hello” function with value “Better
+      name”. What is the value of x.name1 and x.name2? Why?</li>
+  </ol>
+  <blockquote>
+    <p>When the property <span class="code">name1</span> is added to the
+      <span class="code">hello</span> function with the value <span class="code">“Better name”</span>, the value of
+      <span class="code">x.name1</span> is <strong>undefined</strong>, while the
+      value of <span class="code">x.name2</span> remains <span class="code">“Hello_name”</span>. This occurs because
+      <span class="code">x</span> only inherits properties from <span class="code">hello.prototype</span>, not from the
+      <span class="code">hello</span> function itself.
+    </p>
+  </blockquote>
+  <ol start="5" type="1">
+    <li>Change the property name from “name1” to “name2”. What is the value
+      of x.name1 and x.name2? Why?</li>
+  </ol>
+  <blockquote>
+    <p>When the property is changed so that <span class="code">name2</span>
+      is added to the <span class="code">hello</span> function instead of
+      <span class="code">name1</span>, the value of <span class="code">x.name1</span> remains
+      <strong>undefined</strong>, and the
+      value of <span class="code">x.name2</span> is still <span class="code">“Hello_name”</span>. This is because <span
+        class="code">x.name2</span> comes from <span class="code">hello.prototype.name2</span>, and properties added
+      directly
+      to the <span class="code">hello</span> function are not inherited by
+      objects created with <span class="code">new hello()</span>.
+    </p>
+  </blockquote>
+  <h2 id="images">Images</h2>
+  <figure>
+    <img src="images/frm_sandbox.png" alt="Node.js zyBooks Sandbox" />
+    <figcaption aria-hidden="true">Node.js zyBooks Sandbox</figcaption>
+  </figure>
+  <figure>
+    <img src="images/frm_terminal.png" alt="Node.js PowerShell Terminal" />
+    <figcaption aria-hidden="true">Node.js PowerShell Terminal</figcaption>
+  </figure>
+</body>
+
+</html>
