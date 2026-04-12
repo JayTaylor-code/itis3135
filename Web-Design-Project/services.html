@@ -44,18 +44,22 @@
             <!-- Residential Pest Control Section -->
             <h3>Residential</h3>
 
-            <p>
+            <!--<p>
                 We provide complete pest control services for homes including treatment
                 for termites, bed bugs, mosquitoes, and even moisture.
-            </p>
+            </p>-->
 
-
-            <!-- Image displaying what termites look like -->
-            <img id="right" src="images/Termite-Life-Cycle.jpg" alt="Termites">
-
+            <div class="accordion">
 
             <!-- Information about termites -->
-            <h4>Termites</h4>
+            <h3>Termites</h3>
+
+            <div>
+
+            <!-- Image displaying what termites look like -->
+            <a href="images/Termite-Life-Cycle.jpg" data-lightbox="pests" data-title="Termites">
+                <img id="right" src="images/Termite-Life-Cycle.jpg" alt="Termites">
+            </a>
 
             <p>Every year, termites cause billions of dollars in property damage in millions of homes. Wilmington's
                 subtropical climate creates warm, humid conditions that support termite activity throughout much of the
@@ -73,7 +77,7 @@
             </p>
 
             <!-- Key signs to look out for -->
-            <h5>Signs of a Termite Infestation</h5>
+            <h4>Signs of a Termite Infestation</h4>
 
             <p>
                 Termites are silent wood-destroyers, often eating away at a home's structure for months or even years
@@ -84,7 +88,9 @@
             </p>
 
             <!-- Image displaying what winged termites look like -->
-            <img id="left" src="images/winged-roaches-fly.jpg" alt="Winged Termites">
+            <a href="images/winged-roaches-fly.jpg" data-lightbox="pests" data-title="Winged Termites">
+                <img id="left" src="images/winged-roaches-fly.jpg" alt="Winged Termites">
+            </a>
 
             <ul>
                 <li>Mud tubes going up the foundation of a home</li>
@@ -96,10 +102,12 @@
                 <li>Difficulty opening or closing windows or doors</li>
                 <li>Visible destruction to wood</li>
             </ul><br>
+            </div>
 
             <!-- Information about bed bugs -->
-            <h4>Bed Bugs</h4>
+            <h3>Bed Bugs</h3>
 
+            <div>
             <p>
                 Bed bugs can leave you feeling vulnerable in the place you're supposed to feel most secure &ndash; your
                 home. When bed bugs make it into your home, professional intervention is crucial. As a
@@ -110,10 +118,12 @@
             </p>
 
             <!-- Image displaying what bed bugs look like -->
-            <img id="right" src="images/bed-bugs.jpg" alt="Bed Bugs">
+            <a href="images/bed-bugs.jpg" data-lightbox="pests" data-title="Bed Bugs">
+                <img id="right" src="images/bed-bugs.jpg" alt="Bed Bugs">
+            </a>
 
             <!-- How bed bugs can arrive in homes and buildings -->
-            <h5>How Bed Bugs Enter Homes</h5>
+            <h4>How Bed Bugs Enter Homes</h4>
             <p>
                 The arrival of bed bugs is seldom related to the cleanliness of a home. Bed bugs are not attracted to
                 dirt or decay but are instead opportunistic travelers, often called “hitchhikers,” that hitch rides on
@@ -124,7 +134,7 @@
             </p>
 
             <!-- Key signs to look out for -->
-            <h5>Signs of Bed Bug Infestations</h5>
+            <h4>Signs of Bed Bug Infestations</h4>
 
             <p>
                 Here are 5 warning signs of a bed bug infestation to look out for:
@@ -142,10 +152,12 @@
                 <li><strong>Live Bed Bugs:</strong> Although they are nocturnal and elusive, you might spot live bed
                     bugs if the infestation is significant. They are small, brown, and oval-shaped insects.</li>
             </ul><br>
+            </div>
 
             <!-- Information about mosquitoes -->
-            <h4>Mosquitoes</h4>
+            <h3>Mosquitoes</h3>
 
+            <div>
             <p>
                 All across North Carolina, each Spring and Summer mosquitoes emerge in full force, constantly irritating
                 residents and leaving unbearably itchy bites all over your skin. Unfortunately, these pests are more
@@ -156,10 +168,12 @@
             </p>
 
             <!-- Image displaying what mosquitoes look like -->
-            <img id="left" src="images/mosquito.jpg" alt="Mosquito">
+            <a href="images/mosquito.jpg" data-lightbox="pests" data-title="Mosquito">
+                <img id="left" src="images/mosquito.jpg" alt="Mosquito">
+            </a>
 
             <!-- Key signs to look out for -->
-            <h5>When to Call for Mosquito Control?</h5>
+            <h4>When to Call for Mosquito Control?</h4>
 
             <p>
                 While encountering a few mosquitoes during a summer evening is nothing unusual and generally not a cause
@@ -179,12 +193,20 @@
                 <li><strong>Larvae:</strong> Finding mosquito larvae in standing water around your property is a clear
                     indication of a mosquito breeding site on your premises.</li>
             </ul><br><br>
+            </div>
+
+            </div>
 
             <p class="red"><strong>_______________</strong></p>
 
             <!-- Commercial Pest Control Section -->
             <h3>Commercial Pest Control</h3>
 
+            <div class="accordion">
+            
+            <h3>Protecting Your Business</h3>
+
+            <div>
             <p>
                 Running a successful business in Wilmington means juggling many responsibilities, but dealing with a
                 pest infestation shouldn't be one of them. In our coastal climate, pests like rodents, roaches, and
@@ -193,9 +215,11 @@
                 to maintain a safe, compliant environment for your customers and employees. <strong>Don't wait for an
                     infestation to occur; call us today at (910) 586-3788 for service options.</strong>
             </p>
+            </div>
 
-            <h4>Signs That Your Business Needs Intervention</h4>
+            <h3>Signs That Your Business Needs Intervention</h3>
 
+            <div>
             <p>
                 Recognizing the early warning signs of a pest problem is crucial for commercial facilities to avoid
                 significant financial loss and regulatory penalties. Pests are rarely just a nuisance in a business
@@ -215,6 +239,9 @@
                 <li><strong>Unusual Odors:</strong> A persistent musty or urine-like smell, particularly in hidden areas
                     like basements or pantries, often signals a large, established pest population.</li>
             </ul>
+            </div>
+
+            </div>
         </section>
     </main>
 
@@ -224,6 +251,20 @@
             &copy; 2026 Jay Taylor Exterminating
         </p>
     </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+
+    <!-- Lightbox Plugin -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

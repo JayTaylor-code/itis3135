@@ -251,6 +251,30 @@ footer {
     margin-top: 10px;
 }
 
+.accordion h4 {
+    color: #08415C;
+    font-size: 1.25rem;
+}
+
+/* Default accordion header (closed state) */
+.ui-accordion .ui-accordion-header {
+    font-size: 1.5rem !important;
+    background: white;
+    color: #08415C;
+    border: none;
+}
+
+/* Hover effect (optional but nice) */
+.ui-accordion .ui-accordion-header:hover {
+    background: #ffe5e5;
+}
+
+/* ACTIVE (clicked/open) header */
+.ui-accordion .ui-accordion-header-active {
+    background: red !important;
+    color: white !important;
+}
+
 .services-text h5 {
     color: #08415C;
     font-size: 1.25rem;
