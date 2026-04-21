@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+    <h1>My Calculator</h1>
+    
+    <div class="calculator">
+        <p>Please enter a numeric value or<br>use the number buttons below.</p>
+        
+        <input type="text" id="calc-display" class="display" />
+        
+        <div class="keypad">
+            <div class="row">
+                <button type="button" class="btn">1</button>
+                <button type="button" class="btn">2</button>
+                <button type="button" class="btn">3</button>
+                <button type="button" class="btn">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn">4</button>
+                <button type="button" class="btn">5</button>
+                <button type="button" class="btn">6</button>
+                <button type="button" class="btn">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn">7</button>
+                <button type="button" class="btn">8</button>
+                <button type="button" class="btn">9</button>
+                <button type="button" class="btn">*</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn">0</button>
+                <button type="button" class="btn">^</button>
+                <button type="button" class="btn">^2</button>
+                <button type="button" class="btn">/</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn">--</button>
+                <button type="button" class="btn">++</button>
+                <button type="button" class="btn wide-btn">sqrt()</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn wide-btn">Floor</button>
+                <button type="button" class="btn wide-btn">Round</button>
+                <button type="button" class="btn">.</button>
+            </div>
+            <div class="row actions-row">
+                <button type="button" id="btn-clear" class="btn action-btn">Clear</button>
+                <button type="button" id="btn-calculate" class="btn action-btn">Calculate</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="validation">
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
