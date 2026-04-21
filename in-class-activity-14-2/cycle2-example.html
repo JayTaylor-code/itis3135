@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <title>cycle2 example</title>
+      <style>
+        #container {
+            width: 400px;
+            margin: 0 auto;
+        }
+        .cycle-slideshow {
+            width: 400px;
+        }
+        .cycle-slideshow img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .caption {
+            font-size: 16px;
+            margin-top: 5px;
+            text-align: center;
+        }
+      </style>
+   </head>
+   <body>
+        <div id="container">
+            <div class="cycle-slideshow my-slideshow"
+                data-cycle-fx="fadeout"
+                data-cycle-speed="100"
+                data-cycle-timeout="1000"
+                data-cycle-caption=".caption"
+                data-cycle-caption-template="{{alt}}">
+            
+                <img src="images/image-1.jpg" alt="Lake View">
+                <img src="images/image-2.jpg" alt="City Lights">
+                <img src="images/img_lights.jpg" alt="Lights at Night">
+                <img src="images/img_mountains.jpg" alt="Mountain Range">
+                <img src="images/img_nature.jpg" alt="Nature Scene">
+                <img src="images/img_snow.jpg" alt="Snow Landscape">
+            </div>
+            <div class="caption"></div>
+            <div>
+                <button id="previous-btn">Previous</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+        <script src="cycle2-example.js"></script>
+    </body>
+</html>
+
+
+
