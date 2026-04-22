@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Pro Calculator</title>
+    <!-- Modern Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <header class="app-header">
+            <img src="logo.png" alt="Calculator Logo" id="app-logo" class="logo">
+            <h1>Student Pro</h1>
+        </header>
+        
+        <main class="calculator">
+            <div class="display-container">
+                <p class="instruction">Enter numbers or use the buttons below</p>
+                <input type="text" id="calc-display" class="display" placeholder="0" readonly />
+            </div>
+            
+            <div class="keypad">
+                <div class="row">
+                    <button type="button" class="btn num">1</button>
+                    <button type="button" class="btn num">2</button>
+                    <button type="button" class="btn num">3</button>
+                    <button type="button" class="btn op">+</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn num">4</button>
+                    <button type="button" class="btn num">5</button>
+                    <button type="button" class="btn num">6</button>
+                    <button type="button" class="btn op">-</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn num">7</button>
+                    <button type="button" class="btn num">8</button>
+                    <button type="button" class="btn num">9</button>
+                    <button type="button" class="btn op">*</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn num">0</button>
+                    <button type="button" class="btn op">^</button>
+                    <button type="button" class="btn op">^2</button>
+                    <button type="button" class="btn op">/</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn special">--</button>
+                    <button type="button" class="btn special">++</button>
+                    <button type="button" class="btn special wide-btn">sqrt()</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn special wide-btn">Floor</button>
+                    <button type="button" class="btn special wide-btn">Round</button>
+                    <button type="button" class="btn num">.</button>
+                </div>
+                <div class="row actions-row">
+                    <button type="button" id="btn-clear" class="btn action-btn clear">Clear</button>
+                    <button type="button" id="btn-calculate" class="btn action-btn calc">Calculate</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="validation">
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </footer>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

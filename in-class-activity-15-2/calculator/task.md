@@ -1,0 +1,4 @@
+- [x] Update `calculator.html` with logo and fonts
+- [x] Rewrite `calculator.css` for a vibrant student-friendly UI
+- [x] Update `calculator.js` to prevent leading zeros
+- [x] Verify vertical responsiveness and functionality
