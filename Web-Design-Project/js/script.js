@@ -5,18 +5,29 @@ $(document).ready(function () {
         heightStyle: "content"
     });
 
-    $("body").append('<button id="topBtn">Top</button>');
+    $("body").append(`<button id="topBtn">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>`);
 
     $("#topBtn").css({
         position: "fixed",
-        bottom: "20px",
-        right: "20px",
-        padding: "10px",
-        display: "none",
-        background: "red",
-        color: "white",
+        bottom: "10px",
+        right: "25px",
+        width: "50px",
+        height: "50px",
+        display: "flex",
+        "align-items": "center",
+        "justify-content": "center",
+        background: "white",
+        color: "black",
         border: "none",
-        cursor: "pointer"
+        "border-radius": "50%",
+        cursor: "pointer",
+        "font-size": "22px",
+        "font-weight": "bold",
+        "line-height": "1",
+        padding: "0",
+        "box-shadow": "0 4px 10px rgba(0, 0, 0, 0.2)"
     });
 
     $(window).scroll(function () {
