@@ -48,3 +48,37 @@ lightbox.option({
     wrapAround: true,
     fadeDuration: 200
 });
+$.ajax({
+    url: "data/faqs.json",
+    method: "GET",
+
+    success: function(data){
+        let html = "";
+
+        if (typeof data === "object" && data.faqs) {
+            $.each(data.faqs, function(index, faq) {
+                html += `
+                    <h5>${faq.question}</h5>
+                    <p>${faq.answer}</p>
+                `;
+            });
+        }
+        else {
+            $(data).find("faq").each(function () {
+                let question = $(this).find("question").text();
+                let answer = $(this).find("answer").text();
+
+                html += `
+                    <h5>${question}</h5>
+                    <p>${answer}</p>
+                `;
+            });
+        }
+
+        $("#faq-container").html(html);
+    },
+
+    error: function() {
+        $("#faq-container").html("<p>Failed to load FAQs.</p>");
+    }
+});

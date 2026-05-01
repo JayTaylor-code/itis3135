@@ -171,7 +171,7 @@ footer {
 .about-text h5 {
     color: #08415C;
     font-size: 1.25rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
@@ -323,7 +323,7 @@ footer {
     background-color: #f4f4f4;
 }
 
-.contant-text p {
+.contact-text p {
     margin-bottom: 10px;
 }
 
@@ -387,7 +387,12 @@ form button:hover {
     color: blue;
 }
 
-#email {
+#email-display {
+    text-decoration: underline;
+    color: blue;
+}
+
+#email-input {
     text-decoration: underline;
     color: blue;
 }
